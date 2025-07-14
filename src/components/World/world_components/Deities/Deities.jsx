@@ -1,15 +1,17 @@
+//this should show pictures of everyone's E'lars, name, close button/esc key, add button
+
+import "./Deities.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-const Progress = ({}) => {
+const Deities = ({}) => {
   return (
     <>
-      <section className="vendor_stall">
-        <Link to="/author_project/signpost" className="signpost">
-          <button className="signpost_btn">Sign Post</button>
+      <section className="deity_list">
+        <Link to="/author_project/world" className="world">
+          <button className="world_btn">World Building</button>
         </Link>
-        <h2>In Progress</h2>
-        <div className="progress_grid">
+        <div className="deity_grid">
           <div className="card_1 card_grid">
             <img className="card-img-top" src="..." alt="Card image cap" />
             <div className="card-body">
@@ -40,9 +42,9 @@ const Progress = ({}) => {
           </div>
         </div>
       </section>
-      <section className="published_modal"></section>
+      <section className="deity_modal"></section>
     </>
   );
 };
 
-export default Progress;
+export default Deities;

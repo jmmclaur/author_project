@@ -1,0 +1,59 @@
+.vendor_stall {
+  display: flex;
+  flex-direction: row;
+}
+.progress_grid {
+  display: grid;
+  grid-template-areas:
+    "card_1 card_2 card_3 "
+    "card_4 card_5 card_6";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 8px;
+  justify-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.card_grid {
+  background-color: #fff;
+  border: 2px solid #d53f3f;
+  border-radius: 4px;
+  width: 16rem;
+  height: 18rem;
+  box-shadow: 4px 4px 12px rgb(61, 48, 48);
+}
+.card_1 {
+  grid-area: card_1;
+}
+.card_2 {
+  grid-area: card_2;
+}
+.card_3 {
+  grid-area: card_3;
+}
+.card_4 {
+  grid-area: card_4;
+}
+.card_5 {
+  grid-area: card_5;
+}
+.card_6 {
+  grid-area: card_6;
+}
+
+.card-img-top {
+  display: flex;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.card-title,
+.card-text {
+  margin: auto;
+}
+
+.btn {
+  margin-left: 4px;
+}

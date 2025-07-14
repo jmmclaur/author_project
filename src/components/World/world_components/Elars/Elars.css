@@ -1,8 +1,8 @@
-.vendor_stall {
+.elar_list {
   display: flex;
   flex-direction: row;
 }
-.published_grid {
+.elars_grid {
   display: grid;
   grid-template-areas:
     "card_1 card_2 card_3 "

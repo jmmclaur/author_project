@@ -1,0 +1,34 @@
+.nohis {
+  display: grid;
+  grid-template-areas:
+    "elars deities"
+    "music constellations"
+    "language glossary";
+  padding: 1rem;
+  gap: 12px;
+  font-size: 12px;
+}
+
+.elars {
+  grid-area: elars;
+}
+
+.deities {
+  grid-area: deities;
+}
+
+.music {
+  grid-area: music;
+}
+
+.constellations {
+  grid-area: constellations;
+}
+
+.language {
+  grid-area: language;
+}
+
+.glossary {
+  grid-area: glossary;
+}
