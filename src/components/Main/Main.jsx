@@ -8,6 +8,10 @@ function Main({}) {
   const handleNavigation = () => {
     navigate("/"); // Navigate to the "main" root page
   };*/
+  //link navigates to a page immediately
+  //useNavigate would allow me to determine when navigation would happe
+  //ie after
+
   console.log("Main component is rendering");
   return (
     <div>
