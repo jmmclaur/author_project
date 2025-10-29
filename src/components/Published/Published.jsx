@@ -20,9 +20,10 @@ const Published = ({}) => {
   return (
     <>
       <section className="vendor_stall">
-        <Link to="/author_project/signpost" className="signpost">
+        <Link to="/signpost" className="signpost">
           <button className="signpost_btn">Sign Post</button>
         </Link>
+        <button className="published_btn">Add+</button>
         <div className="published_grid">
           <div className="card_1 card_grid">
             <img className="card-img-top" src="..." alt="Card image cap" />

@@ -8,9 +8,10 @@ const Deities = ({}) => {
   return (
     <>
       <section className="deity_list">
-        <Link to="/author_project/world" className="world">
+        <Link to="/world" className="world">
           <button className="world_btn">World Building</button>
         </Link>
+        <button className="deities_btn">Add+</button>
         <div className="deity_grid">
           <div className="card_1 card_grid">
             <img className="card-img-top" src="..." alt="Card image cap" />

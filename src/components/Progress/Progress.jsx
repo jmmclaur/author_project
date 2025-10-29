@@ -5,9 +5,10 @@ const Progress = ({}) => {
   return (
     <>
       <section className="vendor_stall">
-        <Link to="/author_project/signpost" className="signpost">
+        <Link to="/signpost" className="signpost">
           <button className="signpost_btn">Sign Post</button>
         </Link>
+        <button className="progress_btn">Add+</button>
         <h2>In Progress</h2>
         <div className="progress_grid">
           <div className="card_1 card_grid">

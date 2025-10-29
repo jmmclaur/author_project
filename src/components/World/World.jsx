@@ -8,27 +8,27 @@ import { Link } from "react-router-dom";
 const World = ({}) => {
   return (
     <>
-      <Link to="/author_project/signpost" className="signpost">
+      <Link to="/signpost" className="signpost">
         <button className="signpost_btn">Sign Post</button>
       </Link>
       <h2>World Building</h2>
       <div className="nohis">
-        <Link to="/author_project/elars" className="elars">
+        <Link to="/elars" className="elars">
           <button className="nohis_elars">E'lars</button>{" "}
         </Link>
-        <Link to="/author_project/music" className="music">
+        <Link to="/music" className="music">
           <button className="nohis_music">Music</button>
         </Link>
-        <Link to="/author_project/deities" className="deities">
+        <Link to="/deities" className="deities">
           <button className="nohis_deities">Deities</button>
         </Link>
-        <Link to="/author_project/constellations" className="constellations">
+        <Link to="/constellations" className="constellations">
           <button className="nohis_constellations">Constellations</button>
         </Link>
-        <Link to="/author_project/glossary" className="glossary">
+        <Link to="/glossary" className="glossary">
           <button className="nohis_glossary">Glossary</button>
         </Link>
-        <Link to="/author_project/language" className="language">
+        <Link to="/language" className="language">
           <button className="nohis_language">Language</button>
         </Link>
       </div>

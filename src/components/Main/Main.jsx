@@ -15,7 +15,7 @@ function Main({}) {
   console.log("Main component is rendering");
   return (
     <div>
-      <Link to="/author_project/signpost" className="signpost">
+      <Link to="/signpost" className="signpost">
         <h1 className="main_welcome">Majera Palae</h1>{" "}
       </Link>
     </div>

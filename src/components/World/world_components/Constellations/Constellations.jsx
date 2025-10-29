@@ -7,9 +7,10 @@ import { Link } from "react-router-dom";
 const Constellations = ({}) => {
   return (
     <>
-      <Link to="/author_project/world" className="world">
+      <Link to="/world" className="world">
         <button className="world_btn">World Building</button>
       </Link>
+      <button className="constellations_btn">Add+</button>
       <h2>Constellations</h2>
     </>
   );
